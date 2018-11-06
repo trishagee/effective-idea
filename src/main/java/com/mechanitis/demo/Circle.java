@@ -6,6 +6,6 @@ public class Circle implements Shape {
     }
 
     public int getNumberOfEdges() {
-        return 0;
+        throw new UnsupportedOperationException("Not implemented!");
     }
 }
