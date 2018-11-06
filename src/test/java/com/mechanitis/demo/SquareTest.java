@@ -15,7 +15,7 @@ public class SquareTest {
 
     @Test
     void shouldHaveFourEdges() {
-        Square square = new Square();
+        Shape square = new Square();
 
         int numberOfCorners = square.getNumberOfEdges();
 
