@@ -12,4 +12,13 @@ public class SquareTest {
 
         Assertions.assertEquals(4, numberOfCorners);
     }
+
+    @Test
+    void shouldHaveFourEdges() {
+        Square square = new Square();
+
+        int numberOfCorners = square.getNumberOfEdges();
+
+        Assertions.assertEquals(4, numberOfCorners);
+    }
 }
