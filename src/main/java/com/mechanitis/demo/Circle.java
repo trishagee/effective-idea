@@ -1,11 +1,18 @@
 package com.mechanitis.demo;
 
 public class Circle implements Shape {
+
+    private final int zero;
+
+    public Circle() {
+        zero = 0;
+    }
+
     public int getNumberOfCorners() {
-        return 0;
+        return zero;
     }
 
     public int getNumberOfEdges() {
-        throw new UnsupportedOperationException("Not implemented!");
+        return zero;
     }
 }
